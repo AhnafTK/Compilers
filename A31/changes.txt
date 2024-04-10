@@ -1,0 +1,8 @@
+changes we made:
+removed functions, may be added during parser phase.
+changed the way variables are defined, now the datatype is required before the variable name
+if statement: only if-else, no more if-elseif-else or if statement, may be added during parser phase
+for loops and while loops: added () to enclose condition expression. 
+
+A32
+cube and square functions removed

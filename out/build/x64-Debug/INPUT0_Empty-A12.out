@@ -1,0 +1,28 @@
+ oooooooooooo oooooooooooo ooooo     ooo  .oooooo..o    
+ d      d888' `888'     `8 `888'     `8'  d8P'    `Y8    
+       .888P    888          888       8  Y88bo.        
+      d888      888oooo8     888       8   `Y8888o.     
+   .888P        888          888       8       ` Y88b   
+  d888'    .P   888       o  `88.    .8'  oo     .d8P   
+.8888888888P   o888ooooood8    `YbodP'    80088888P'    
+													     
+	   By: Ahnaf Kamal and Skylar Phanenhour             
+
+[Option 'R': Starting READER .....]
+
+Reading file INPUT0_Empty.zs ....Please wait
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  250
+The current size of the buffer is:  0
+The operational mode of the buffer is: M
+The increment factor of the buffer is:  10
+The first symbol in the buffer is:   
+The value of the flags field is: 40
+Number of different chars read: 0
+Number of errors: 0
+
+Printing buffer contents:
+
+Empty buffer

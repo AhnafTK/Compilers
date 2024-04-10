@@ -1,0 +1,22 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "ZeusCompiler.exe",
+      "name": "ZeusCompiler.exe",
+      "args": [
+        "P",
+        "INPUT5_General.zs"
+      ]
+    }
+  ]
+}
+// input0_empty -> good
+// input1_hello -> good
+// input2_Volume -> good
+// input3_Factorial-> good
+// input4_Datatypes -> good
+// input5_General-> good

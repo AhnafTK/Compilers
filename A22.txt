@@ -1,0 +1,44 @@
+
+RE
+Lexeme Classes: Define the classes to be used in your regular expression:
+L = [A-Za-z]	
+D = [0-9]
+U = [ _ ]
+M = [TAB] 
+TAB -> [	] (tab key)
+SL = [Q(^Q)*Q]
+Q =  " 
+O = [^L| D | U | M | TAB | SL | Q | CMMNT | TAG | EQ | PERIOD ]
+CMMNT =  [TAG(^O)*]	
+MLCMMNT = 
+TAG = #
+EQ =  =
+VARNAME = [ L(L|D|U)0-30 ]
+PERIOD =  . 
+OPARAN =  ( 
+CPARAN = ) 
+PERC = %
+COMMA = ,
+SSPACE = [ ] (Single space)
+
+Missing: + - / *, & | , < > ,
+
+Define the RE to be used for: variables, literals and keywords:
+
+* Comments: TAG(^O)*
+* Multi-line Comment: TAGEQ(^O)*EQTAG
+
+* Variables: 
+	Integer =  D(^O)*
+	Real = D( [D]* [PERIOD] ) [D]*
+	String= SL[^SL]SL
+
+//* Methods: KEYWORDSLSPACE(KEYWORD)SLBRACCOPBRACCL
+ 
+
+* Literals:
+	- Numbers = D[D]*O
+	- Strings = SL[^SL]*SL 
+
+* Keywords: {if, else, elseif, for, while, println, printf, function, return, square, cube, PI, end, readLine, println}
+

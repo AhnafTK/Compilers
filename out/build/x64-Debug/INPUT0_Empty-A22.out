@@ -1,0 +1,28 @@
+ oooooooooooo oooooooooooo ooooo     ooo  .oooooo..o    
+ d      d888' `888'     `8 `888'     `8'  d8P'    `Y8    
+       .888P    888          888       8  Y88bo.        
+      d888      888oooo8     888       8   `Y8888o.     
+   .888P        888          888       8       ` Y88b   
+  d888'    .P   888       o  `88.    .8'  oo     .d8P   
+.8888888888P   o888ooooood8    `YbodP'    80088888P'    
+													     
+	   By: Ahnaf Kamal and Skylar Phanenhour             
+
+[Option 'S': Starting SCANNER ....]
+
+[Debug mode: 0]
+Reading file INPUT0_Empty.zs ....Please wait
+
+Scanning source file...
+
+Token		Attribute
+----------------------------------
+SEOF_T		0	
+
+Printing string table...
+----------------------------------
+
+----------------------------------
+Number of scanner errors: 0
+
+----------------------------------
